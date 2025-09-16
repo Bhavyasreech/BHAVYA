@@ -1,0 +1,12 @@
+import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        double var1 = sc.nextDouble();
+        double var2 = sc.nextDouble();
+        double sum = var1 + var2;
+        System.out.println(sum);
+        sc.close();
+
+           }
+}
